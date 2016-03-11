@@ -1,0 +1,30 @@
+/* the asterisk(*) is the universal selector which selects every element */
+
+
+body {font-size: 100%;} /*the base font size is 16px so 1em = 16px*/
+
+*,*:before,*:after{
+    margin:0px;
+    padding:0px;}
+
+/* {property:value;} */
+p {font-size: 2em;}/*font size is 2*16=32px*/
+
+/*em {font-size: .5em;}/*we expext font size the be .5*2em(from p ^)=16em*/
+
+em {font-size: 2rem;}/*rem = Reset the em (from p) to 1 em = 16 px*/
+
+#container {
+    width: 100%;
+    background-color: rgba(250,180,25,.7);
+    margin:auto;}
+
+
+h1 {font-size:3.998em;}
+
+h2 {font-size:2.827em;}
+
+#wrapper {
+    width:100%;
+    background-color: rgba();
+}

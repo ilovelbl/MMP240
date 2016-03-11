@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'chunkfive';
+    src: url('fonts/chunkfive-webfont.eot');
+    src: url('fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('fonts/chunkfive-webfont.woff') format('woff'),
+         url('fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+body {
+    background-image: url(images/pattern_143.gif);
+    background-repeat: repeat-y;
+    background-attachment: fixed;  /*frez the background picture to be moved with scrol
+}
+*/
+
+body{background: url(images/fall.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1, h2 {
+    font-family: chunkfive, helvetica, Georgia;
+    color: aliceblue;
+}
+
+p {
+    font-family:  chunkfive, helvetica, Georgia;
+    width: 500px;
+    background-color: rgb(255,187,143);
+    padding: 50px;
+    border: 50px solid rgb(23,172,178);
+    margin: 130px;
+    background-image: url(images/pattern_129.gif);
+    border-image: url(images/pattern_140.gif) 20 round;
+}
+
+/* in the traditional/default box model, padding and border are added to the outside of the given width. In this paragraph, the width feneratedd is 50(padding)+50(border)+500+50(border)+50(padding)=700px*/
+
+
+
+.natural {
+    box-sizing: border-box;
+}
+
+/*In the natural box model or border-box model, you still must add margin to both sides of the width to calculate the overall width of the box. In the case of this box the width is 130px(margin)+500px+130px(margin)=760px*/
+
+
+
+*, *:before, *:after {box-sizing: border-box;}
+
+/*universile set*/

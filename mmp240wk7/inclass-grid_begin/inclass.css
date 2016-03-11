@@ -1,0 +1,94 @@
+body {
+    font-size: 100%;
+    background-color: rgb(255,187,143);
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*using border-box/natural box model let us add padding and border, without affection the width, Border and padding cuts into the overall width. Itdoes not get added to the outside of the width. */
+
+#wrapper {
+    width: 98%;
+    background-color: rgb(255,255,255);
+    margin: auto;
+    overflow: auto;
+}
+
+img {max-width: 100%;}
+
+h1, h2 {font-size: 3em}
+
+
+
+@media (min-width:40em) {
+
+    body {
+        background-color: rgb(255,91,62);
+    }
+
+    h1, h2{font-size: 2em;}
+
+    #wrapper {width: 80%}
+
+    #inner-wrapper {
+        width: 100%;
+        margin: 20px auto;
+        border:2px solid black;
+        overflow: auto;
+        background-color: rgb(255,181,168);
+    }
+
+    .product {
+        float: left;
+        width: 50%;
+        padding:20px;
+
+    }
+
+
+    .phoneimage {
+        float: left;
+        width: 33.33%;
+        padding:20px;
+
+    }
+
+    .post {
+        float: left;
+        width: 33.33%;
+    }
+
+}
+
+
+
+@media (min-width:70em){
+    .phoneimage {width: 16.66%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

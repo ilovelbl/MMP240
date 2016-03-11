@@ -1,0 +1,45 @@
+*,*:before, *:after {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 100%;
+    font-family: 'Oswald', sans-serif;}
+h1 {
+    border-bottom: 1px solid rgb(255,255,69);
+    font-size: 2.5em;
+}
+h2 {background-color: rgb(255,186,96);
+    padding: 10px 0px 20px 50px;
+margin: 50px 5px 50px 5px;}
+
+/*margim: top width bottom*/
+/*margim: top right bottom left*/
+
+h3 {font-size: 2em;}
+p, li {
+    font-size: 1.5em;
+    line-height: .9em;
+    margin-bottom: 15px;
+}
+.everyother {background-color: rgb(90,160,160);}
+
+.geographic {
+    font-style: italic;
+    font-size: 1rem;
+}
+#container {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* botder-width: 1px;
+    border-style: solid;
+    border-color: black:
+*/
+
+a:link {
+    background-color: rgb(255,186,96);
+    color: white;}
+a:visited{color: aliceblue;}
+a:hover {background-color:rgb(90,160,160);}

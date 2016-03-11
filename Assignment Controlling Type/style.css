@@ -1,0 +1,137 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: rgb(35,35,80);
+	margin: 10%;
+	line-height: 1.6;
+	font-size:20px;
+}
+
+#container {
+    margin: auto;
+    width: 98%
+}
+
+.category {
+    border: 2px solid rgba(150,150,150,.3);
+    padding: 5px;
+    margin-top: 15px;
+}
+
+nav {
+    background: rgb(200,200,200);
+}
+
+a:link {color: rgb(64,178,0);}
+a:visited {color: rgb(104,120,180);}
+a:hover {
+    color: rgb(255,211,0);
+    background: rgb(68,65,64);
+}
+/* no space after the ":"; "a:link" is right, "a: link" is wrong*/
+h1 {color: aliceblue;}
+
+h2 {color: rgb(64,178,200);}
+
+h3 {color: rgb(180,160,200);}
+
+
+.category h3 {font-style: italic;}
+
+.director {
+    color: rgb(164,255,100);
+    font-size: .9em;
+    font-weight: bold;
+    letter-spacing: .3em;
+}
+
+img {
+    width: 190px;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+        /* 1 em = 16 px */
+}
+
+p { color: white;
+    margin-left: 20px;
+}
+
+ul li {
+	display:inline-block;
+	margin-right:2em;
+}
+
+footer {
+    color: aliceblue;
+}
+
+/* - h2 {font-size:3em;}/* h2 is 48px*/
+
+/* - p {font-size:2em;} /* p is 32px*/
+
+/* - em {font-size:2em;}/* you would expect the font size
+to be 32px, but it isn't because the size is '
+compounded' The base pixel size is that of the parent
+element.  The new base pixel size is 32px so the
+end resulting size is 2x32=64px */
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("../icons/responsivenav.eot");
+  src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../icons/responsivenav.ttf") format("truetype"),
+    url("../icons/responsivenav.woff") format("woff"),
+    url("../icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: #f4421a; /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
+/*________________________________hualilidefenjiexian__________________________________________*/
+/*________________________________hualilidefenjiexian__________________________________________*/

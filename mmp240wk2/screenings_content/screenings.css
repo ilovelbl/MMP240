@@ -1,0 +1,43 @@
+body {font-size:100%;}
+
+#container {
+    margin: auto;
+    width: 98%
+}
+
+.category {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+a:link {color: rgb(64,178,200);}
+a:visited {color: rgb(160,140,200);}
+a:hover {
+    color: rgb(255,211,0);
+    background: rgb(68,65,64);
+}
+/* no space after the ":"; "a:link" is right, "a: link" is wrong*/
+h2 {color: rgb(64,178,200);}
+
+h3 {color: rgb(160,140,200);}
+
+
+.category h3 {font-style: italic;}
+
+.director {
+    color: rgb(64,178,0);
+    font-size: .9em;
+    font-weight: bold;
+    letter-spacing: .3em;
+}
+
+/* - h2 {font-size:3em;}/* h2 is 48px*/
+
+/* - p {font-size:2em;} /* p is 32px*/
+
+/* - em {font-size:2em;}/* you would expect the font size
+to be 32px, but it isn't because the size is '
+compounded' The base pixel size is that of the parent
+element.  The new base pixel size is 32px so the
+end resulting size is 2x32=64px */

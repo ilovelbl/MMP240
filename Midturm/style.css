@@ -1,0 +1,91 @@
+
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sams-serif, Helvetica;
+    background: url(img/back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    margin: 5%;
+    line-height: 1.45;/*    jianju^*/
+    font-size: 20px;
+}
+#logo {width: 350px;
+    margin-left: auto;
+}
+#container {
+    width:98%;
+    margin:auto;
+}
+h1, h2, h4{
+    color: rgb(150,200,154);
+    font-weight:200;
+}
+p, ul{ color: rgb(150,180,200);}
+
+/*img {width: 200px; margin-left: 30%;}*/
+nav {
+    display: block;
+    background: rgb(18,28,29);
+}
+
+.intro {
+    width: 500px;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+.intro img{max-width: 200px;}
+.intro h2{
+/*    float: left;*/
+    width: 25%;
+}
+.intro p{
+/*    float: left;*/
+    width: 25%;
+}
+a {
+    color: rgb(161,211,198);
+    text-decoration: none;
+    transition: color 500ms;
+}
+a:visited {color: rgb(104,120,180);}
+a:hover { color: green;}
+
+
+ul{
+    list-style: none;
+    padding: 8px;
+    color: rgb(161,211,198);
+}
+ul li{
+    display: inline-block;
+    margin-right: 1em;
+    position:relative;
+    color: rgb(161,211,198);
+}
+
+ul li ul {/* drop list*/
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    color: rgb(161,211,198);
+    background: rgb(18,28,29);
+}
+
+ul li:hover ul{
+    display: inline-block;/* drop list*/
+}
+
+#home {
+    font-size: 30px;
+}

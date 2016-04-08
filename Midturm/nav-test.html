@@ -1,15 +1,14 @@
-<!doctype html>
-<html>
+<!DOCTYPE html >
+<html lang="en">
 
 <head>
-    <title>Midturm</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/responsive-nav.css" media="all">
     <link rel="stylesheet" href="css/style.css" >
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="js/responsive-nav.js"></script>
+    <title>Nav</title>
     <!--[if lt IE 9]>
      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
@@ -20,50 +19,26 @@
 
 <body>
     <div id="container">
-        <img src="img/logo.png" alt="" id="logo">
+
         <header>
             <nav class="nav-collapse">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="AssignmentControllingType/Act.html">Action</a></li>
-                    <li><a href="AssignmentControllingType/Com.html">Comedy</a></li>
-                    <li><a href="AssignmentControllingType/Rom.html">Romance</a></li>
-                    <li><a href="AssignmentControllingType/SF.html">SiFI</a></li>
+                    <li>Home</li>
+                    <li>Screenings</li>
+                    <li>Directors</li>
+                    <li>Schedule</li>
+                    <li>Registration</li>
+                    <li>Information</li>
                 </ul>
             </nav>
-        </header>
-        <div>
-            <h3>Welcom to 20-1 Animation Festival</h3>
-            <h3> Nov/15 2016 - Nov/25 2016</h3>
-            <br>
-            <img src="img/poster.jpg" alt="poster">
-
-            <p>sdaaf sdafwsdfa dfadsfasfa</p>
-            <p>sdaaf sdafwsdfa dfadsfasfa</p>
+            <div id="logo">
+                <h1> Color Me</h1>
+                <h2>Film Festival</h2>
         </div>
-        <!--
-        <p>Here is the common which allow Audience leave their commons</p>
-
-        <input class="reaction" type="text" placeholder="Input Name" />
-        <br>
-        <p>Please discribe what kind of person is with few adjective.</p>
-        <textarea class="reaction" placeholder="(Such as: bright, ratianal, kind, etc)"></textarea>
-        <br>
-        <p>Which kind of the Film do you prefer?</p>
-        <select class="reaction">
-            <option>Action</potion>
-            <option>Si-Fi</potion>
-            <option>Comedy</potion>
-            <option>Romance</potion>
-        </select>
-        <p>Any thought?</p>
-        <textarea name="" class="reaction" cols="90" rows="10" placeholder="Please leave some commns here"></textarea>
-        <br>
-        <button id="upload">submit</button>
-        <p id="message"></p>
--->
+        </header>
     </div>
-    <script>
+
+<script>
         var navigation = responsiveNav(".nav-collapse", {
             animate: true, // Boolean: Use CSS3 transitions, true or false
             transition: 284, // Integer: Speed of the transition, in milliseconds
@@ -80,7 +55,6 @@
             close: function () {} // Function: Close callback
         });
 </script>
-<!--    <script src="main.js"></script>-->
 </body>
 
 </html>

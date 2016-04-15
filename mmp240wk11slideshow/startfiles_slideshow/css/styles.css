@@ -1,0 +1,219 @@
+
+
+/*Default styles*/
+@font-face {
+    font-family: 'walkway';
+    src: url('../fonts/walkway_ultrabold-webfont.eot');
+    src: url('../fonts/walkway_ultrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/walkway_ultrabold-webfont.woff') format('woff'),
+         url('../fonts/walkway_ultrabold-webfont.ttf') format('truetype'),
+         url('../fonts/walkway_ultrabold-webfont.svg#walkway_ultraboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*, *:before, *:after {box-sizing: border-box;
+                      -moz-box-sizing: border-box;
+                      -webkit-box-sizing: border-box;
+                      }
+
+
+
+#container {width:95%;
+background-color:#fff;
+margin:0px auto;
+}
+
+.slidecontainer {width: 92%;}
+
+h1, h2, h4 {color:#679B00;
+    font-family:walkway, helvetica, sans-serif;
+
+   }
+
+h3 {color:#E6399B;
+    font-family:walkway, helvetica, sans-serif;}
+
+
+.presenters {color:#E6399B;
+             }
+
+.picandbio {
+            border-radius:4px;}
+
+
+#speakers img {border: .1em solid #E6399B;}
+
+#speakers img,video{width: auto; max-width: 100%; height:auto;}
+
+#speakers img {-ms-interpolation-mode: bicubic;}
+
+h1 {font-size:4em;
+    margin-left:3%;
+    margin-bottom:4%;}
+h3 {font-size:3em;
+    margin-left:3%;
+    margin-top:3%;}
+h2 {font-size:3.7em;
+  margin-left:3%;
+  margin-bottom:4%;
+
+    }
+h4 {font-size:3.2em;
+    margin-left:3%;
+
+   }
+ h5 {font-size:2em;
+    margin-left:3%;
+    margin-top:3%;}
+p {font-size:1.8em;
+   margin-left:3%;}
+
+footer {margin-left:3%;
+        font-size:1.6em;
+         margin-top:3%;}
+.speakerheader {margin-top:0px;}
+.speakerpicture {width:30%;
+                 margin-right:3%;
+                 ;
+                 float:left;}
+
+.picandbio {margin-bottom:5%;
+            padding:3%;}
+
+.bio {margin-left:0;}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-collapse,
+.nav-collapse ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.nav-collapse li {font-size:2em;
+
+                  border-bottom: 1px solid #679B00;
+                  margin-bottom:3%;
+                  padding:2%;}
+
+.nav-collapse li a {color:#E6399B;
+                    text-decoration:none;
+                    }
+
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: #E6399B; /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size:6em;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"close";
+}
+
+@media screen and (min-width:40em){
+/*navigationmedia query rules */
+.nav-collapse li {display:inline;
+                  width:13%;
+                  border-top: 1px solid #679B00;
+                  border-bottom:1px solid #679B00;
+                  background-color:#e8e8e8;
+                  border-radius:6px;
+
+                  }
+
+.nav-collapse ul {margin-left:3%;}
+
+.nav-collapse li:hover {background-color:#fff;}
+
+
+nav {}
+/*speakers media query rules */
+.picandbio {float:left;
+            width:27.5%;
+            margin-bottom:5px;
+            background-color:#e8e8e8;
+
+            margin-left:3%;}
+.description {width:60%;}
+
+.clearleft {clear:left;}
+footer {clear:left;}
+h3 {font-size:2em;}
+}
+
+@media screen and (min-width: 76em) {
+/*sessions media query rules */
+.description {float:left;
+              width:22%;
+              margin-right:3%;
+              font-family:georgia;
+              margin-bottom:3%;
+              background-color:#e8e8e8;
+              padding:5px;
+              border-radius:6px;
+              }
+/*note- four columns of 22% add up to 88% +12% margin +3% left of
+track, add up to */
+.track {clear:left;
+
+        margin-left:3%;}
+/*do border and overflow as a demo on the sessions page, then
+edit it out because it doesn't look good border:1px solid #E6399B;
+        overflow:auto;*/
+
+#allsessions h3 {font-size:4em;}
+#allsessions h2 {margin-left:0px;}
+#allsessions h5 {font-family:walkway;}
+.presenters {font-size:1.3em;}
+
+
+
+}
+

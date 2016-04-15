@@ -4,11 +4,10 @@
 body {font-size:100%;
       background-color: rgb(9,153,178);
 }
-#container {width:98%;
-            margin:auto;
-
-
-            background-color:rgb(253,220,222)}
+#container {
+    width:98%;
+    margin:auto;
+    background-color:rgb(253,220,222)}
 h1{font-family: 'Oswald', sans-serif;
         font-size:3em;
         color:rgb(9,153,178);

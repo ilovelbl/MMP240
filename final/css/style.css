@@ -10,12 +10,13 @@ body {
 #container {
     width:98%;
     margin:auto;
-    background-color:rgb(102,104,175)}
+/*    background-color:rgb(102,104,175)}*/
+}
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    color: rgb(9, 153, 178);
+    color: rgb(90, 153, 178);
     margin-bottom: 0px;
     padding-top: 2em;
     line-height: 1em;
@@ -189,8 +190,45 @@ p {color: aliceblue}
         background-color: rgb(255, 255, 255);
     }
     .category {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 25 5);
         overflow: auto;
         /* make twosection can be fill the the color at at same time */
     }
+    h3{
+        line-height: 40px;
+    }
+    h4{
+        color: aliceblue;
+        line-height: 30px;
+    }
+    .home {
+    margin:auto;
+/*	position: relative;*/
+/*        background: rgb(255,0,0);*/
+
+    width: 100%;
+    }
+
+    .hm1{
+        width:310px;
+        float:left;
+        margin: 5ps;
+        padding: 5px;
+        line-height: 50px;
+    }
+    .hm2{
+        width:500px;
+        float:left;
+        margin: 5ps;
+        padding: 5px;
+        line-height: 50px;
+    }
+    .HPN{
+    position: right;
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+
+}
 }

@@ -10,7 +10,7 @@ body {
 #container {
     width:98%;
     margin:auto;
-/*    background-color:rgb(102,104,175)}*/
+    background-color:rgb(102,104,175)}
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
     padding-top: 2em;
     line-height: 1em;
     clear: both;
+    text-align:center;
 }
 img {width: 150px;
     text-align: center;
@@ -34,7 +35,9 @@ h2, h3 {
     color: rgb(180, 198, 183);
 }
 
-h1, h2 {text-align:center;}
+h2 {text-align:center;
+    color: rgb(150,200,154);
+}
 p {color: aliceblue}
 .nav-collapse,
 .nav-collapse * {

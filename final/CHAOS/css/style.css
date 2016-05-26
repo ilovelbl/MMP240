@@ -12,7 +12,7 @@ body {
 #container {
     width: 98%;
     margin: auto;
-    background-color: rgb(22,24,75);
+    background-color: rgb(50,24,75);
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
 h2, h3 {
     margin: 0px;
     font-family: 'Oswald', sans-serif;
-    color: rgb (150,200,154);
+    color: #ccc;
 
 }
  h2 {
@@ -51,9 +51,7 @@ figure img {
     border-bottom: 10px solid rgb(9, 153, 178);
 }
 
-.clear {
-    clear: both;
-}
+
 
 h3 {
     font-family: 'Oswald', sans-serif;
@@ -212,7 +210,7 @@ p.director {
         background-color: rgb(255, 211, 188);
     }
     a {
-        background: #ccc;
+        background: #FFFFFF;
     }
 }
 

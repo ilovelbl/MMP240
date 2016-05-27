@@ -6,13 +6,13 @@
 
 body {
     font-size: 100%;
-    background-color: rgb(8, 11, 11);
+    background-color: rgb(10,20,20);
 }
 
 #container {
     width: 98%;
     margin: auto;
-    background-color: rgb(50,24,75);
+    background-color: rgb(10,20,20);
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
     font-size: 3em;
     color: rgb(100, 183, 178);
     margin-bottom: 0px;
-    padding-top: 2em;
+    padding-top: 1em;
     line-height: 1em;
     clear: both;
     text-align: center;
@@ -32,12 +32,11 @@ h1 {
 h2, h3 {
     margin: 0px;
     font-family: 'Oswald', sans-serif;
-    color: #ccc;
+    color: rgb(180,205,200);
 
 }
  h2 {
     text-align: center;
-    color: rgb (150,200,154);
 }
 
 figure {
@@ -60,7 +59,7 @@ h3 {
 p {
     font-size: 1em;
     font-family: sans-serif;
-    color: rgb(9, 153, 178);
+    color: rgb(109, 153, 178);
 }
 
 
@@ -102,13 +101,13 @@ p.director {
     float: left;
     width: 100%;
     font-family: Oswald, sans-serif;
-    background-color: rgb(60,65,90);
+    background-color: rgb(10,20,30);
     margin-bottom: .5em;
     font-size: 1.5em;
 }
 
 .nav-collapse li:hover {
-    background-color: rgb(9, 153, 178);
+    background-color: rgb(100, 183, 178);
     margin-bottom: .5em;
     font-size: 1.5em;
 }
@@ -176,7 +175,8 @@ p.director {
         clear: right;
         padding-top: 0px;
         margin-top: 0px;
-        font-size: 4em
+        font-size: 4em;
+            padding-top: 2em;
     }
     p {
         clear: left;
@@ -202,15 +202,16 @@ p.director {
         padding: 20px;
     }
     .category {
-        background-color: rgb(255, 211, 188);
+        background-color: rgb(10,30,30);
         overflow: auto;
         /* make twosection can be fill the the color at at same time */
     }
     #container {
-        background-color: rgb(255, 211, 188);
+        background-color: rgb(10,20,20);
     }
     a {
-        background: #FFFFFF;
+        color: rgb(180,255,183);
+        text-align: center;
     }
 }
 
